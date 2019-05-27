@@ -1,0 +1,349 @@
+//$txt-color: #00b8a4;
+$txt-color: #00b8a4;
+$bg-color: #009e8c;
+$browser-default-font-size: 75px !default;
+@function pr($px) {
+  @return $px / $browser-default-font-size * 1rem;
+}
+
+$padding-size: pr(30px);
+
+body {
+  overflow-x: auto;
+  min-width: 1100px;
+  font-size: 14px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a:hover {
+  color: $txt-color;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  font-style: normal;
+}
+
+%one {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+%in-b {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+%clearfix {
+  zoom: 1;
+  &:after {
+    clear: both;
+  }
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.m-top-bar {
+  display: none;
+}
+
+/*PC*/
+/*pr(1px) = 2px*/
+.header-l{
+  float: left;
+  .logo {
+    @extend %in-b;
+    margin-right: 19px;
+    img{
+      @extend %in-b;
+      margin-right: 9px;
+      vertical-align: middle;
+
+    }
+    &:after{
+      content: '';
+      @extend %in-b;
+      width: 1px;
+      height: 44px;
+      background-color: #dddddd;
+      vertical-align: middle;
+    }
+  }
+  .pc-h1, .m-h1{
+    @extend %in-b;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #333333;
+  }
+  .m-h1{
+    display: none;
+  }
+}
+
+.header-r{
+  float: right;
+  margin-top: 30px;
+  a{
+    @extend %in-b;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 28px;
+    border: solid 1px $txt-color;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    &:hover{
+      color: #ffffff;
+      background-color: $txt-color;
+    }
+  }
+}
+
+.pc-nav{
+  background-color: $txt-color;
+  ul{
+    @extend %clearfix;
+    li{
+      float: left;
+      a{
+        @extend %in-b;
+        min-width: 124px;
+        line-height: 44px;
+        text-align: center;
+        font-size: 16px;
+        &:hover{
+          color: #ffffff;
+          background-color: $bg-color;
+        }
+      }
+    }
+  }
+
+}
+.pc-test-tool{
+  height: 44px;
+  .test-tool{
+    img{
+      @extend %in-b;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+    ul{
+      @extend %in-b;
+      vertical-align: middle;
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 44px;
+      strong{
+        float: left;
+        color: $txt-color;
+        margin-right: 10px;
+      }
+      li{
+        float: left;
+        a{
+          @extend %in-b;
+          min-width: 76px;
+          text-align: center;
+          color: #666666;
+          &:hover{
+            color: $txt-color;
+          }
+        }
+      }
+    }
+    .timer{
+      @extend %in-b;
+      min-width: 190px;
+      //height: 26px;
+      background-color: #faab00;
+      color: #ffffff;
+      border-radius: 13px;
+      vertical-align: middle;
+      margin-left: 20px;
+      font-size: 14px;
+      text-align: center;
+      line-height: 26px;
+      span{
+        font-weight: bold;
+      }
+    }
+  }
+}
+.pc-banner{
+  height: 450px;
+  background: url("../images/pc_banner.png") no-repeat center;
+  overflow: hidden;
+  .banner-tab{
+    float: left;
+    width: 240px;
+    padding: 35px 20px 35px 30px;
+    box-sizing: border-box;
+    //height: 450px;
+    background: rgba(0, 0, 0, 0.6);
+    .tab-title{
+      font-size: 18px;
+      line-height: 18px;
+      color: $txt-color;
+      font-weight: bold;
+      border-left: 4px solid $txt-color;
+      padding-left: 10px;
+    }
+    ul{
+      margin-top: 27px;
+      li{
+        min-width: 90px;
+        @extend %in-b;
+        margin-bottom: 27px;
+        a{
+          width: 100%;
+          color: #ffffff;
+          font-size: 14px;
+          &:hover{
+            color: $txt-color;
+          }
+        }
+      }
+    }
+  }
+  .apply{
+    float: right;
+    width: 146px;
+    height: 50px;
+    //border: 1px solid red;
+    margin-right: 214px;
+    margin-top: 346px;
+    text-indent: -9999px;
+  }
+}
+
+/*mobile*/
+@media screen and (max-width: 750px) {
+  body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    font-size: pr(26px);
+  }
+  /*多少行显示省略号*/
+  @mixin ells($row) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $row;
+    -webkit-box-orient: vertical;
+  }
+
+  /*垂直居中，两端对齐*/
+  .space-between {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /*垂直居中，水平居中*/
+  .space-around {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  /*去除前后伪类*/
+  %flex {
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+  body {
+    width: pr(750px);
+    overflow-x: hidden;
+    font-size: pr(26px);
+    min-width: auto;
+    padding-bottom: pr(100px);
+    //background-color: #ebebeb;
+  }
+  .container{
+    width: 100%;
+    padding-left: pr(30px);
+    padding-right: pr(30px);
+    box-sizing: border-box;
+  }
+
+  .m-top-bar {
+    display: block;
+    font-size: pr(34px);
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    line-height: pr(88px);
+    //box-shadow: 0 1px 0 0 #dddddd;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .header-l{
+    .logo{
+      height: pr(90px);
+      margin-right: pr(15px);
+      img{
+        height: 100%;
+        margin-right: pr(7px);
+      }
+      &:after{
+        width: pr(1px);
+        height: pr(44px);
+      }
+    }
+    .pc-h1{
+      display: none;
+    }
+    .m-h1{
+      display: inline-block;
+      font-size: pr(30px);
+    }
+  }
+  .header-r{
+    margin-top: pr(23px);
+    a{
+      line-height: pr(44px);
+      min-width: pr(130px);
+      font-size: pr(22px);
+      border-radius: pr(22px);
+    }
+  }
+  .pc-nav{
+    display: none;
+  }
+  .pc-test-tool{
+    display: none;
+  }
+  .pc-banner{
+    display: none;
+  }
+}
