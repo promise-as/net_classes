@@ -12,6 +12,7 @@ body {
   overflow-x: auto;
   min-width: 1100px;
   font-size: 14px;
+  color: #333333;
 }
 
 p {
@@ -150,7 +151,7 @@ i {
 
 }
 .pc-test-tool{
-  height: 44px;
+  //height: 44px;
   .test-tool{
     img{
       @extend %in-b;
@@ -245,7 +246,253 @@ i {
     text-indent: -9999px;
   }
 }
+.m-banner{
+  display: none;
+}
+.m-nav{
+  display: none;
+}
 
+.title-module{
+  text-align: center;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  font-size: pr(34px);
+  line-height: pr(46px);
+  color: #333333;
+  position: relative;
+  //border: 1px solid #cccccc;
+  //margin-top: pr(100px);
+  padding-top: pr(100px);
+  img{
+    position: absolute;
+    //top: pr(-10px);
+    bottom: pr(15px);
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  strong{
+    color: $txt-color;
+  }
+}
+/*课程直播*/
+.course-live{
+  margin-bottom: pr(108px);
+  .course-vessel{
+    margin-right: pr(-30px);
+    .course-item{
+      margin-top: pr(38px);
+      margin-right: pr(20px);
+      background-color: #ffffff;
+      border-radius: pr(4px);
+      border: solid 1px #eeeeee;
+      text-align: center;
+      float: left;
+      .course-text{
+        @extend %clearfix;
+        line-height: pr(46px);
+        padding-left: pr(10px);
+        padding-right: pr(9px);
+        .text-title{
+          float: left;
+          font-size: pr(16px);
+          color: #555555;
+        }
+        .number{
+          float: right;
+          font-size: pr(14px);
+          color: #999999;
+          strong{
+            color: $txt-color;
+          }
+        }
+      }
+      .m-course-btn{
+        display: none;
+      }
+      .pc-course-btn {
+        @extend %in-b;
+        width: pr(120px);
+        height: pr(36px);
+        line-height: pr(36px);
+        background-color: #faab00;
+        border-radius: pr(18px);
+        text-align: center;
+        color: #ffffff;
+        //margin-top: pr(15px);
+        margin-bottom: pr(15px);
+        font-size: pr(14px);
+      }
+      &:hover{
+        box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
+      }
+    }
+  }
+
+}
+/*课程表*/
+.curriculum{
+  //height: pr(1020px);
+  background: url("../images/pc_timetable.png") no-repeat center;
+  .curriculum-tab-head{
+    text-align: center;
+    margin-top: pr(38px);
+    margin-right: pr(-18px);
+    margin-bottom: pr(40px);
+    .head-item{
+      @extend %in-b;
+      width: pr(158px);
+      height: pr(42px);
+      background-color: #f0fffc;
+      border-radius: pr(4px);
+      border: solid 1px $txt-color;
+      font-size: pr(18px);
+      line-height: pr(44px);
+      color: $txt-color;
+      text-align: center;
+      cursor: pointer;
+      margin-right: pr(18px);
+      &.active{
+        background-color: $txt-color;
+        color: #ffffff;
+      }
+      &:hover{
+        background-color: $txt-color;
+        color: #ffffff;
+      }
+    }
+  }
+  .curriculum-tab-body{
+    .tab-body{
+      @extend %clearfix;
+      margin-right: pr(-20px);
+      .tab-body-item{
+        width: 245px;
+        //height: 311px;
+        background-color: #ffffff;
+        border-radius: 4px;
+        float: left;
+        margin-right: pr(20px);
+        padding: pr(20px);
+        margin-bottom: pr(25px);
+        .again{
+          .m-tab-body-title{
+            display: none;
+          }
+          .tab-body-btn{
+            display: inline-block;
+            width: pr(60px);
+            height: pr(18px);
+            line-height: pr(18px);
+            border: solid 1px $txt-color;
+            border-radius: 2px;
+            font-size: pr(12px);
+            //line-height: 46px;
+            color: $txt-color;
+            text-align: center;
+            margin-right: pr(9px);
+            &:hover{
+              background-color: $txt-color;
+              color: #ffffff;
+            }
+          }
+        }
+        .pc-tab-body-title{
+          font-size: pr(22px);
+          line-height: pr(46px);
+          //color: #333333;
+        }
+        .tab-body-detail{
+          @extend %clearfix;
+          border-bottom: 1px solid #eeeeee;
+          padding-bottom: pr(18px);
+          .hour{
+            @extend %in-b;
+            width: 60%;
+            font-size: pr(14px);
+            line-height: pr(26px);
+            color: #999999;
+            span{
+              @extend %in-b;
+              width: 100%;
+            }
+          }
+          .pc-price{
+            @extend %in-b;
+            font-size: pr(14px);
+            line-height: pr(24px);
+            color: #faab00;
+            margin-top: pr(50px);
+            strong{
+              font-family: MicrosoftYaHei-Bold;
+              font-weight: bold;
+              font-size: pr(24px);
+            }
+          }
+        }
+        .m-price{
+          display: none;
+        }
+        .avatar{
+          padding-top: pr(19px);
+          padding-bottom: pr(14px);
+          img{
+            margin-right: pr(10px);
+            vertical-align: middle;
+          }
+        }
+        .try_apply{
+          margin-right: pr(-15px);
+          a{
+            @extend %in-b;
+            width: pr(115px);
+            height: pr(32px);
+            line-height: pr(34px);
+            border-radius: pr(17px);
+            border: solid 1px #faab00;
+            text-align: center;
+            font-size: pr(14px);
+            color: #faab00;
+            margin-right: pr(11px);
+            &.sel{
+              background: #faab00;
+              color: #ffffff;
+            }
+            &:hover{
+              background: #faab00;
+              color: #ffffff;
+            }
+          }
+        }
+        &:hover{
+          box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
+        }
+      }
+    }
+  }
+}
+
+/*教学优势*/
+.advantage{
+  .adv-col{
+    font-size: 20px;
+    line-height: 46px;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    border-left: 1px solid #dddddd;
+    .th{
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #a1adb6;
+    }
+    .td{
+      border-right: 1px solid #dddddd;
+      border-bottom: 1px solid #dddddd;
+    }
+  }
+}
 /*mobile*/
 @media screen and (max-width: 750px) {
   body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
@@ -345,5 +592,212 @@ i {
   }
   .pc-banner{
     display: none;
+  }
+  .m-banner{
+    display: block;
+  }
+  .m-nav{
+    padding: pr(60px) pr(60px) 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: pr(40px) pr(90px);
+    text-align: center;
+    span{
+      font-family: PingFang-SC-Medium;
+      font-size: pr(24px);
+      color: #333333;
+      white-space: nowrap;
+    }
+  }
+
+  .title-module{
+    img{
+      display: none;
+    }
+  }
+  /*课程直播*/
+  .course-live{
+    margin-bottom: pr(0px);
+    .course-vessel{
+      margin-right: pr(0px);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: pr(20px);
+      .course-item{
+        margin-right: pr(0px);
+        border: none;
+        .course-text{
+          padding-left: pr(0px);
+          padding-right: pr(0px);
+          .text-title{
+            font-size: pr(28px);
+          }
+          .number{
+            float: left;
+            line-height: pr(48px);
+          }
+        }
+        .pc-course-btn{
+          display: none;
+        }
+        .m-course-btn {
+          display: block;
+          float: right;
+          width: pr(160px);
+          height: pr(44px);
+          line-height: pr(44px);
+          background-color: #faab00;
+          border-radius: pr(22px);
+          text-align: center;
+          color: #ffffff;
+          //margin-top: pr(6px);
+          margin-bottom: pr(10px);
+          font-size: pr(22px);
+        }
+      }
+    }
+  }
+  /*课程表*/
+  .curriculum{
+    background: transparent;
+    .curriculum-tab-head{
+      margin-right: pr(0px);
+      margin-bottom: pr(0px);
+      border-bottom: 1px solid #dddddd;
+      display: flex;
+      justify-content: space-between;
+      .head-item{
+        width: auto;
+        border: none;
+        background-color: #ffffff;
+        border-radius: pr(0px);
+        margin-right: pr(0px);
+        margin-bottom: pr(-4px);
+        padding-bottom: pr(10px);
+        &.active{
+          background-color: #ffffff;
+          color: $txt-color;
+          border-bottom: 3px solid $txt-color;
+        }
+        &:hover{
+          background-color: #ffffff;
+          color: $txt-color;
+          border-bottom: 3px solid $txt-color;
+        }
+      }
+    }
+    .curriculum-tab-body{
+      .tab-body{
+        margin-right: pr(0px);
+        .tab-body-item{
+          width: 100%;
+          //height: 311px;
+          background-color: #ffffff;
+          border-radius: 4px;
+          float: left;
+          margin-right: pr(20px);
+          padding: pr(20px) pr(0px);
+          box-sizing: border-box;
+          margin-bottom: pr(25px);
+          border-bottom: 1px solid #dddddd;
+          .again{
+            margin-bottom: pr(26px);
+            .m-tab-body-title{
+              display: block;
+              float: left;
+              margin-right: pr(9px);
+              font-family: PingFang-SC-Medium;
+              font-size: pr(28px);
+              line-height: pr(40px);
+            }
+            .tab-body-btn{
+              display: inline-block;
+              width: pr(106px);
+              height: pr(32px);
+              line-height: pr(32px);
+              border-radius: 4px;
+              font-size: pr(22px);
+              color: $txt-color;
+              margin-right: pr(9px);
+              &:hover{
+                background-color: $txt-color;
+                color: #ffffff;
+              }
+            }
+          }
+          .pc-tab-body-title{
+            display: none;
+          }
+          .tab-body-detail{
+            border-bottom: none;
+            padding-bottom: pr(18px);
+            .hour{
+              width: 100%;
+              font-size: pr(24px);
+              line-height: pr(40px);
+              color: #666666;
+              span{
+                width: auto;
+                margin-right: pr(26px);
+              }
+            }
+            .pc-price{
+              display: none;
+            }
+          }
+          .m-price{
+            display: block;
+            float: left;
+            color: #faab00;
+            font-size: pr(24px);
+            line-height: pr(50px);
+            font-family: MicrosoftYaHei-Bold;
+            font-weight: bold;
+            margin-right: pr(28px);
+            strong{
+              font-family: MicrosoftYaHei-Bold;
+              font-weight: bold;
+              font-size: pr(34px);
+            }
+          }
+          .avatar{
+            padding: 0;
+            float: left;
+            img{
+              width: pr(50px);
+              &.arrows{
+                width: pr(13px);
+              }
+            }
+          }
+          .try_apply{
+            margin-right: pr(-15px);
+            float: right;
+            a{
+              width: pr(130px);
+              height: pr(42px);
+              line-height: pr(42px);
+              border-radius: pr(22px);
+              border: solid 1px #faab00;
+              text-align: center;
+              font-size: pr(14px);
+              color: #faab00;
+              margin-right: pr(11px);
+              &.sel{
+                background: #faab00;
+                color: #ffffff;
+              }
+              &:hover{
+                background: #faab00;
+                color: #ffffff;
+              }
+            }
+          }
+          &:hover{
+            box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
+          }
+        }
+      }
+    }
   }
 }

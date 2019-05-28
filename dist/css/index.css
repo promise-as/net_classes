@@ -3,6 +3,7 @@ body {
   overflow-x: auto;
   min-width: 1100px;
   font-size: 14px;
+  color: #333333;
 }
 
 p {
@@ -28,21 +29,21 @@ i {
   font-style: normal;
 }
 
-.header-l .logo, .header-l .logo img, .header-l .logo:after, .header-l .pc-h1, .header-l .m-h1, .header-r a, .pc-nav ul li a, .pc-test-tool .test-tool img, .pc-test-tool .test-tool ul, .pc-test-tool .test-tool ul li a, .pc-test-tool .test-tool .timer, .pc-banner .banner-tab ul li {
+.header-l .logo, .header-l .logo img, .header-l .logo:after, .header-l .pc-h1, .header-l .m-h1, .header-r a, .pc-nav ul li a, .pc-test-tool .test-tool img, .pc-test-tool .test-tool ul, .pc-test-tool .test-tool ul li a, .pc-test-tool .test-tool .timer, .pc-banner .banner-tab ul li, .course-live .course-vessel .course-item .pc-course-btn, .curriculum .curriculum-tab-head .head-item, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour span, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .pc-price, .curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
 
-.pc-nav ul {
+.pc-nav ul, .course-live .course-vessel .course-item .course-text, .curriculum .curriculum-tab-body .tab-body, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail {
   zoom: 1;
 }
 
-.pc-nav ul:after {
+.pc-nav ul:after, .course-live .course-vessel .course-item .course-text:after, .curriculum .curriculum-tab-body .tab-body:after, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail:after {
   clear: both;
 }
 
-.pc-nav ul:before, .pc-nav ul:after {
+.pc-nav ul:before, .course-live .course-vessel .course-item .course-text:before, .curriculum .curriculum-tab-body .tab-body:before, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail:before, .pc-nav ul:after, .course-live .course-vessel .course-item .course-text:after, .curriculum .curriculum-tab-body .tab-body:after, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail:after {
   content: "";
   display: table;
 }
@@ -133,10 +134,6 @@ i {
 .pc-nav ul li a:hover {
   color: #ffffff;
   background-color: #009e8c;
-}
-
-.pc-test-tool {
-  height: 44px;
 }
 
 .pc-test-tool .test-tool img {
@@ -239,6 +236,271 @@ i {
   text-indent: -9999px;
 }
 
+.m-banner {
+  display: none;
+}
+
+.m-nav {
+  display: none;
+}
+
+.title-module {
+  text-align: center;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  font-size: 0.45333rem;
+  line-height: 0.61333rem;
+  color: #333333;
+  position: relative;
+  padding-top: 1.33333rem;
+}
+
+.title-module img {
+  position: absolute;
+  bottom: 0.2rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.title-module strong {
+  color: #00b8a4;
+}
+
+/*课程直播*/
+.course-live {
+  margin-bottom: 1.44rem;
+}
+
+.course-live .course-vessel {
+  margin-right: -0.4rem;
+}
+
+.course-live .course-vessel .course-item {
+  margin-top: 0.50667rem;
+  margin-right: 0.26667rem;
+  background-color: #ffffff;
+  border-radius: 0.05333rem;
+  border: solid 1px #eeeeee;
+  text-align: center;
+  float: left;
+}
+
+.course-live .course-vessel .course-item .course-text {
+  line-height: 0.61333rem;
+  padding-left: 0.13333rem;
+  padding-right: 0.12rem;
+}
+
+.course-live .course-vessel .course-item .course-text .text-title {
+  float: left;
+  font-size: 0.21333rem;
+  color: #555555;
+}
+
+.course-live .course-vessel .course-item .course-text .number {
+  float: right;
+  font-size: 0.18667rem;
+  color: #999999;
+}
+
+.course-live .course-vessel .course-item .course-text .number strong {
+  color: #00b8a4;
+}
+
+.course-live .course-vessel .course-item .m-course-btn {
+  display: none;
+}
+
+.course-live .course-vessel .course-item .pc-course-btn {
+  width: 1.6rem;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  background-color: #faab00;
+  border-radius: 0.24rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0.2rem;
+  font-size: 0.18667rem;
+}
+
+.course-live .course-vessel .course-item:hover {
+  -webkit-box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
+          box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
+}
+
+/*课程表*/
+.curriculum {
+  background: url("../images/pc_timetable.png") no-repeat center;
+}
+
+.curriculum .curriculum-tab-head {
+  text-align: center;
+  margin-top: 0.50667rem;
+  margin-right: -0.24rem;
+  margin-bottom: 0.53333rem;
+}
+
+.curriculum .curriculum-tab-head .head-item {
+  width: 2.10667rem;
+  height: 0.56rem;
+  background-color: #f0fffc;
+  border-radius: 0.05333rem;
+  border: solid 1px #00b8a4;
+  font-size: 0.24rem;
+  line-height: 0.58667rem;
+  color: #00b8a4;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 0.24rem;
+}
+
+.curriculum .curriculum-tab-head .head-item.active {
+  background-color: #00b8a4;
+  color: #ffffff;
+}
+
+.curriculum .curriculum-tab-head .head-item:hover {
+  background-color: #00b8a4;
+  color: #ffffff;
+}
+
+.curriculum .curriculum-tab-body .tab-body {
+  margin-right: -0.26667rem;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item {
+  width: 245px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  float: left;
+  margin-right: 0.26667rem;
+  padding: 0.26667rem;
+  margin-bottom: 0.33333rem;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .again .m-tab-body-title {
+  display: none;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .again .tab-body-btn {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.24rem;
+  line-height: 0.24rem;
+  border: solid 1px #00b8a4;
+  border-radius: 2px;
+  font-size: 0.16rem;
+  color: #00b8a4;
+  text-align: center;
+  margin-right: 0.12rem;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .again .tab-body-btn:hover {
+  background-color: #00b8a4;
+  color: #ffffff;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .pc-tab-body-title {
+  font-size: 0.29333rem;
+  line-height: 0.61333rem;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 0.24rem;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour {
+  width: 60%;
+  font-size: 0.18667rem;
+  line-height: 0.34667rem;
+  color: #999999;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour span {
+  width: 100%;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .pc-price {
+  font-size: 0.18667rem;
+  line-height: 0.32rem;
+  color: #faab00;
+  margin-top: 0.66667rem;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .pc-price strong {
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  font-size: 0.32rem;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .m-price {
+  display: none;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .avatar {
+  padding-top: 0.25333rem;
+  padding-bottom: 0.18667rem;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .avatar img {
+  margin-right: 0.13333rem;
+  vertical-align: middle;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply {
+  margin-right: -0.2rem;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a {
+  width: 1.53333rem;
+  height: 0.42667rem;
+  line-height: 0.45333rem;
+  border-radius: 0.22667rem;
+  border: solid 1px #faab00;
+  text-align: center;
+  font-size: 0.18667rem;
+  color: #faab00;
+  margin-right: 0.14667rem;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a.sel {
+  background: #faab00;
+  color: #ffffff;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a:hover {
+  background: #faab00;
+  color: #ffffff;
+}
+
+.curriculum .curriculum-tab-body .tab-body .tab-body-item:hover {
+  -webkit-box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
+          box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
+}
+
+/*教学优势*/
+.advantage .adv-col {
+  font-size: 20px;
+  line-height: 46px;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  border-left: 1px solid #dddddd;
+}
+
+.advantage .adv-col .th {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #a1adb6;
+}
+
+.advantage .adv-col .td {
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
 /*mobile*/
 @media screen and (max-width: 750px) {
   body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
@@ -332,5 +594,211 @@ i {
   }
   .pc-banner {
     display: none;
+  }
+  .m-banner {
+    display: block;
+  }
+  .m-nav {
+    padding: 0.8rem 0.8rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.53333rem 1.2rem;
+    text-align: center;
+  }
+  .m-nav span {
+    font-family: PingFang-SC-Medium;
+    font-size: 0.32rem;
+    color: #333333;
+    white-space: nowrap;
+  }
+  .title-module img {
+    display: none;
+  }
+  /*课程直播*/
+  .course-live {
+    margin-bottom: 0rem;
+  }
+  .course-live .course-vessel {
+    margin-right: 0rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.26667rem;
+  }
+  .course-live .course-vessel .course-item {
+    margin-right: 0rem;
+    border: none;
+  }
+  .course-live .course-vessel .course-item .course-text {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .course-live .course-vessel .course-item .course-text .text-title {
+    font-size: 0.37333rem;
+  }
+  .course-live .course-vessel .course-item .course-text .number {
+    float: left;
+    line-height: 0.64rem;
+  }
+  .course-live .course-vessel .course-item .pc-course-btn {
+    display: none;
+  }
+  .course-live .course-vessel .course-item .m-course-btn {
+    display: block;
+    float: right;
+    width: 2.13333rem;
+    height: 0.58667rem;
+    line-height: 0.58667rem;
+    background-color: #faab00;
+    border-radius: 0.29333rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0.13333rem;
+    font-size: 0.29333rem;
+  }
+  /*课程表*/
+  .curriculum {
+    background: transparent;
+  }
+  .curriculum .curriculum-tab-head {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    border-bottom: 1px solid #dddddd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .curriculum .curriculum-tab-head .head-item {
+    width: auto;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 0rem;
+    margin-right: 0rem;
+    margin-bottom: -0.05333rem;
+    padding-bottom: 0.13333rem;
+  }
+  .curriculum .curriculum-tab-head .head-item.active {
+    background-color: #ffffff;
+    color: #00b8a4;
+    border-bottom: 3px solid #00b8a4;
+  }
+  .curriculum .curriculum-tab-head .head-item:hover {
+    background-color: #ffffff;
+    color: #00b8a4;
+    border-bottom: 3px solid #00b8a4;
+  }
+  .curriculum .curriculum-tab-body .tab-body {
+    margin-right: 0rem;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 4px;
+    float: left;
+    margin-right: 0.26667rem;
+    padding: 0.26667rem 0rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 0.33333rem;
+    border-bottom: 1px solid #dddddd;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .again {
+    margin-bottom: 0.34667rem;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .again .m-tab-body-title {
+    display: block;
+    float: left;
+    margin-right: 0.12rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.37333rem;
+    line-height: 0.53333rem;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .again .tab-body-btn {
+    display: inline-block;
+    width: 1.41333rem;
+    height: 0.42667rem;
+    line-height: 0.42667rem;
+    border-radius: 4px;
+    font-size: 0.29333rem;
+    color: #00b8a4;
+    margin-right: 0.12rem;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .again .tab-body-btn:hover {
+    background-color: #00b8a4;
+    color: #ffffff;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .pc-tab-body-title {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail {
+    border-bottom: none;
+    padding-bottom: 0.24rem;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour {
+    width: 100%;
+    font-size: 0.32rem;
+    line-height: 0.53333rem;
+    color: #666666;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour span {
+    width: auto;
+    margin-right: 0.34667rem;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .pc-price {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .m-price {
+    display: block;
+    float: left;
+    color: #faab00;
+    font-size: 0.32rem;
+    line-height: 0.66667rem;
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    margin-right: 0.37333rem;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .m-price strong {
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    font-size: 0.45333rem;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .avatar {
+    padding: 0;
+    float: left;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .avatar img {
+    width: 0.66667rem;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .avatar img.arrows {
+    width: 0.17333rem;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply {
+    margin-right: -0.2rem;
+    float: right;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a {
+    width: 1.73333rem;
+    height: 0.56rem;
+    line-height: 0.56rem;
+    border-radius: 0.29333rem;
+    border: solid 1px #faab00;
+    text-align: center;
+    font-size: 0.18667rem;
+    color: #faab00;
+    margin-right: 0.14667rem;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a.sel {
+    background: #faab00;
+    color: #ffffff;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a:hover {
+    background: #faab00;
+    color: #ffffff;
+  }
+  .curriculum .curriculum-tab-body .tab-body .tab-body-item:hover {
+    -webkit-box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
+            box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
   }
 }
