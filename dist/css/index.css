@@ -29,21 +29,27 @@ i {
   font-style: normal;
 }
 
-.header-l .logo, .header-l .logo img, .header-l .logo:after, .header-l .pc-h1, .header-l .m-h1, .header-r a, .pc-nav ul li a, .pc-test-tool .test-tool img, .pc-test-tool .test-tool ul, .pc-test-tool .test-tool ul li a, .pc-test-tool .test-tool .timer, .pc-banner .banner-tab ul li, .course-live .course-vessel .course-item .pc-course-btn, .curriculum .curriculum-tab-head .head-item, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour span, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .pc-price, .curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a, .teacher .container .lecture .lbt .pointer span, .teach-serve .content .serve-item, .teach-serve .content .serve-item img, .teach-serve .content .serve-item .text, .teach-serve .content .serve-item .text .title, .test-data .content .data-item, .test-data .content .data-item .data-title, .test-data .content .data-item ul li a, .test-data .content .data-item ul li a:before, .recommend .m-data-tab-head .head-item, .recommend ul li, .recommend ul li a, .recommend ul li a:before, .footer .content .data-item, .footer .content .data-item .data-title, .footer .content .data-item ul li, .footer .content .data-item ul li a {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .pc-tab-body-title, .test-data .content .data-item .data-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.header-l .logo, .header-l .logo img, .header-l .logo:after, .header-l .pc-h1, .header-l .m-h1, .header-r a, .pc-test-tool .test-tool img, .pc-test-tool .test-tool ul, .pc-test-tool .test-tool ul li a, .pc-test-tool .test-tool .timer, .pc-banner .banner-tab ul li, .course-live .course-vessel .course-item .pc-course-btn, .curriculum .curriculum-tab-head .head-item, .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .pc-tab-body-title, .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail .hour, .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail .hour span, .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail .pc-price, .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .try_apply a, .teacher .container .lecture .lbt .hd li, .teach-serve .content .serve-item, .teach-serve .content .serve-item img, .teach-serve .content .serve-item .text, .teach-serve .content .serve-item .text .title, .test-data .content .data-item, .test-data .content .data-item .data-title, .test-data .content .data-item ul li a, .test-data .content .data-item ul li a:before, .recommend .tab-head .head-item, .recommend .tab-body li, .recommend .tab-body li a, .recommend .tab-body li a:before, .footer .content .data-item, .footer .content .data-item .data-title, .footer .content .data-item ul li, .footer .content .data-item ul li a {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
 
-.pc-nav ul, .course-live .course-vessel .course-item .course-text, .curriculum .curriculum-tab-body .tab-body, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail, .teacher .container, .teacher .container .lecture, .teacher .container .lecture .lecture-top, .teacher .container .coach .lecture-top, .teacher .container .coach .text .bottom, .teach-serve .content .serve-item {
+.pc-nav .container, .course-live .course-vessel .course-item .course-text, .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail, .teacher .container, .teacher .container .lecture, .teacher .container .lecture .lecture-top, .teacher .container .coach .lecture-top, .teacher .container .coach .text .bottom, .teach-serve .content .serve-item {
   zoom: 1;
 }
 
-.pc-nav ul:after, .course-live .course-vessel .course-item .course-text:after, .curriculum .curriculum-tab-body .tab-body:after, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail:after, .teacher .container:after, .teacher .container .lecture:after, .teacher .container .lecture .lecture-top:after, .teacher .container .coach .lecture-top:after, .teacher .container .coach .text .bottom:after, .teach-serve .content .serve-item:after {
+.pc-nav .container:after, .course-live .course-vessel .course-item .course-text:after, .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail:after, .teacher .container:after, .teacher .container .lecture:after, .teacher .container .lecture .lecture-top:after, .teacher .container .coach .lecture-top:after, .teacher .container .coach .text .bottom:after, .teach-serve .content .serve-item:after {
   clear: both;
 }
 
-.pc-nav ul:before, .course-live .course-vessel .course-item .course-text:before, .curriculum .curriculum-tab-body .tab-body:before, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail:before, .teacher .container:before, .teacher .container .lecture:before, .teacher .container .lecture .lecture-top:before, .teacher .container .coach .lecture-top:before, .teacher .container .coach .text .bottom:before, .teach-serve .content .serve-item:before, .pc-nav ul:after, .course-live .course-vessel .course-item .course-text:after, .curriculum .curriculum-tab-body .tab-body:after, .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail:after, .teacher .container:after, .teacher .container .lecture:after, .teacher .container .lecture .lecture-top:after, .teacher .container .coach .lecture-top:after, .teacher .container .coach .text .bottom:after, .teach-serve .content .serve-item:after {
+.pc-nav .container:before, .course-live .course-vessel .course-item .course-text:before, .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail:before, .teacher .container:before, .teacher .container .lecture:before, .teacher .container .lecture .lecture-top:before, .teacher .container .coach .lecture-top:before, .teacher .container .coach .text .bottom:before, .teach-serve .content .serve-item:before, .pc-nav .container:after, .course-live .course-vessel .course-item .course-text:after, .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail:after, .teacher .container:after, .teacher .container .lecture:after, .teacher .container .lecture .lecture-top:after, .teacher .container .coach .lecture-top:after, .teacher .container .coach .text .bottom:after, .teach-serve .content .serve-item:after {
   content: "";
   display: table;
 }
@@ -63,7 +69,6 @@ i {
 }
 
 /*PC*/
-/*pr(1px) = 2px*/
 .header-l {
   float: left;
 }
@@ -80,7 +85,7 @@ i {
 .header-l .logo:after {
   content: '';
   width: 1px;
-  height: 44px;
+  height: 0.58667rem;
   background-color: #dddddd;
   vertical-align: middle;
 }
@@ -88,7 +93,6 @@ i {
 .header-l .pc-h1, .header-l .m-h1 {
   vertical-align: middle;
   font-size: 24px;
-  color: #333333;
 }
 
 .header-l .m-h1 {
@@ -120,18 +124,20 @@ i {
   background-color: #00b8a4;
 }
 
-.pc-nav ul li {
+.pc-nav .container a {
   float: left;
-}
-
-.pc-nav ul li a {
   min-width: 124px;
   line-height: 44px;
   text-align: center;
   font-size: 16px;
 }
 
-.pc-nav ul li a:hover {
+.pc-nav .container a.active {
+  color: #ffffff;
+  background-color: #009e8c;
+}
+
+.pc-nav .container a:hover {
   color: #ffffff;
   background-color: #009e8c;
 }
@@ -298,6 +304,10 @@ i {
   color: #555555;
 }
 
+.course-live .course-vessel .course-item .course-text .text-title:hover {
+  color: #00b8a4;
+}
+
 .course-live .course-vessel .course-item .course-text .number {
   float: right;
   font-size: 0.18667rem;
@@ -332,6 +342,7 @@ i {
 /*课程表*/
 .curriculum {
   background: url("../images/pc_timetable.png") no-repeat center;
+  padding-bottom: 0.93333rem;
 }
 
 .curriculum .curriculum-tab-head {
@@ -365,25 +376,58 @@ i {
   color: #ffffff;
 }
 
-.curriculum .curriculum-tab-body .tab-body {
-  margin-right: -0.26667rem;
+.curriculum .curriculum-tab-body .tab-lcm {
+  display: none;
+  position: relative;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item {
+.curriculum .curriculum-tab-body .tab-lcm.active {
+  display: block;
+}
+
+.curriculum .curriculum-tab-body .tab-lcm .tab-body {
+  margin-right: -0.46667rem;
+}
+
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .hd {
+  display: block;
+  position: absolute;
+  bottom: -0.26667rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .hd li {
+  display: inline-block;
+  width: 0.13333rem;
+  height: 0.13333rem;
+  border: solid 1px #00b8a4;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .hd li.on {
+  background: #00b8a4;
+}
+
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item {
   width: 245px;
   background-color: #ffffff;
   border-radius: 4px;
-  float: left;
+  display: inline-block;
   margin-right: 0.26667rem;
   padding: 0.26667rem;
   margin-bottom: 0.33333rem;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .again .m-tab-body-title {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .again .m-tab-body-title {
   display: none;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .again .tab-body-btn {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .again .tab-body-btn {
   display: inline-block;
   width: 0.8rem;
   height: 0.24rem;
@@ -396,64 +440,66 @@ i {
   margin-right: 0.12rem;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .again .tab-body-btn:hover {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .again .tab-body-btn:hover {
   background-color: #00b8a4;
   color: #ffffff;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .pc-tab-body-title {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .pc-tab-body-title {
   font-size: 0.29333rem;
   line-height: 0.61333rem;
+  width: 100%;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail {
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 0.24rem;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail .hour {
   width: 60%;
   font-size: 0.18667rem;
   line-height: 0.34667rem;
   color: #999999;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour span {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail .hour span {
   width: 100%;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .pc-price {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail .pc-price {
   font-size: 0.18667rem;
   line-height: 0.32rem;
   color: #faab00;
   margin-top: 0.66667rem;
+  float: right;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .pc-price strong {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .tab-body-detail .pc-price strong {
   font-family: MicrosoftYaHei-Bold;
   font-weight: bold;
   font-size: 0.32rem;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .m-price {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .m-price {
   display: none;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .avatar {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .avatar {
   padding-top: 0.25333rem;
   padding-bottom: 0.18667rem;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .avatar img {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .avatar img {
   margin-right: 0.13333rem;
   vertical-align: middle;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .try_apply {
   margin-right: -0.2rem;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .try_apply a {
   width: 1.53333rem;
   height: 0.42667rem;
   line-height: 0.45333rem;
@@ -465,17 +511,17 @@ i {
   margin-right: 0.14667rem;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a.sel {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .try_apply a.sel {
   background: #faab00;
   color: #ffffff;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a:hover {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item .try_apply a:hover {
   background: #faab00;
   color: #ffffff;
 }
 
-.curriculum .curriculum-tab-body .tab-body .tab-body-item:hover {
+.curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-item:hover {
   -webkit-box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
           box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
 }
@@ -502,6 +548,14 @@ i {
           box-sizing: border-box;
 }
 
+.advantage .adv-col .th a {
+  color: #ffffff;
+}
+
+.advantage .adv-col .th a:hover {
+  color: #00b8a4;
+}
+
 .advantage .adv-col .th span {
   font-weight: normal;
   font-size: 0.18667rem;
@@ -514,6 +568,17 @@ i {
           box-sizing: border-box;
   font-size: 0.18667rem;
   color: #666666;
+  padding-top: 0.29333rem;
+  padding-bottom: 0.29333rem;
+  line-height: 0.32rem;
+}
+
+.advantage .adv-col .td a {
+  color: #666666;
+}
+
+.advantage .adv-col .td a:hover {
+  color: #00b8a4;
 }
 
 .advantage .adv-col.new {
@@ -545,6 +610,10 @@ i {
   -webkit-box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
           box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
   border-bottom: 1px solid #00b8a4;
+  color: #00b8a4;
+}
+
+.advantage .adv-col.new .td a {
   color: #00b8a4;
 }
 
@@ -640,6 +709,7 @@ i {
   margin-top: -0.34667rem;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .teacher .container .lecture .lbt .prev, .teacher .container .lecture .lbt .next {
@@ -648,6 +718,10 @@ i {
   font-size: 0.66667rem;
   color: #ffffff;
   cursor: pointer;
+}
+
+.teacher .container .lecture .lbt .prev:hover, .teacher .container .lecture .lbt .next:hover {
+  color: #009e8c;
 }
 
 .teacher .container .lecture .lbt .prev {
@@ -684,33 +758,41 @@ i {
 
 .teacher .container .lecture .lbt .cont .tea-detail p {
   width: 5.04rem;
-  font-size: 0.18667rem;
   line-height: 0.32rem;
   color: #666666;
-  margin-top: 0.13333rem;
+  margin-top: 0.24rem;
 }
 
-.teacher .container .lecture .lbt .pointer {
+.teacher .container .lecture .lbt .hd {
   position: absolute;
-  bottom: 0.2rem;
+  bottom: 0rem;
   left: 0;
   right: 0;
   margin: auto;
   text-align: center;
 }
 
-.teacher .container .lecture .lbt .pointer span {
-  width: 10px;
-  height: 10px;
+.teacher .container .lecture .lbt .hd li {
+  width: 0.13333rem;
+  height: 0.13333rem;
   background: #ffffff;
+  opacity: 0.6;
   border-radius: 50%;
   margin-right: 20px;
   cursor: pointer;
 }
 
+.teacher .container .lecture .lbt .hd li.on {
+  opacity: 1;
+}
+
 .teacher .container .coach {
   float: right;
   padding-top: 28px;
+}
+
+.teacher .container .coach .lecture-top {
+  margin-bottom: 0.26667rem;
 }
 
 .teacher .container .coach .lecture-top strong {
@@ -734,7 +816,6 @@ i {
 .teacher .container .coach .lecture-top .lecture-top-text {
   float: left;
   font-size: 22px;
-  color: #333333;
 }
 
 .teacher .container .coach .lecture-top .lecture-top-text p {
@@ -783,15 +864,18 @@ i {
   margin-right: 0.26667rem;
 }
 
+.teach-serve .content .serve-item .text:hover {
+  color: #00b8a4;
+}
+
+.teach-serve .content .serve-item .text:hover p {
+  color: #00b8a4;
+}
+
 .teach-serve .content .serve-item .text .title {
   font-size: 0.26667rem;
   line-height: 0.34667rem;
-  color: #333333;
   margin-bottom: 0.13333rem;
-}
-
-.teach-serve .content .serve-item .text .title:hover {
-  color: #00b8a4;
 }
 
 .teach-serve .content .serve-item .text p {
@@ -862,48 +946,53 @@ i {
   padding-bottom: 0.66667rem;
 }
 
-.recommend .m-data-tab-head {
+.recommend .tab-head {
   margin-top: 0.64rem;
   border-bottom: 1px solid #dddddd;
 }
 
-.recommend .m-data-tab-head .head-item {
+.recommend .tab-head .head-item {
   margin-right: 0.34667rem;
   margin-bottom: -0.02667rem;
   padding-bottom: 0.13333rem;
   font-family: MicrosoftYaHei-Bold;
   font-weight: bold;
   font-size: 0.24rem;
+  line-height: 0.61333rem;
   cursor: pointer;
 }
 
-.recommend .m-data-tab-head .head-item.active {
+.recommend .tab-head .head-item.active {
   background-color: #ffffff;
   color: #00b8a4;
   border-bottom: 0.04rem solid #00b8a4;
 }
 
-.recommend .m-data-tab-head .head-item:hover {
+.recommend .tab-head .head-item:hover {
   background-color: #ffffff;
   color: #00b8a4;
   border-bottom: 0.04rem solid #00b8a4;
 }
 
-.recommend ul {
+.recommend .tab-body {
   margin-top: 0.26667rem;
+  display: none;
 }
 
-.recommend ul li {
+.recommend .tab-body.active {
+  display: block;
+}
+
+.recommend .tab-body li {
   margin-right: 0.26667rem;
 }
 
-.recommend ul li a {
-  line-height: 0.45333rem;
+.recommend .tab-body li a {
+  line-height: 0.77333rem;
   color: #666666;
-  font-size: 0.18667rem;
 }
 
-.recommend ul li a:before {
+.recommend .tab-body li a:before {
   content: '';
   width: 0.05333rem;
   height: 0.05333rem;
@@ -913,7 +1002,7 @@ i {
   vertical-align: middle;
 }
 
-.recommend ul li a:hover {
+.recommend .tab-body li a:hover {
   color: #00b8a4;
 }
 
@@ -935,6 +1024,7 @@ i {
   width: 2.26667rem;
   color: #444444;
   margin-right: 0.4rem;
+  padding-bottom: 0.26667rem;
   vertical-align: top;
 }
 
@@ -952,6 +1042,41 @@ i {
 
 .footer .content .data-item ul li a {
   line-height: 0.45333rem;
+}
+
+.link {
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+.link a {
+  margin-right: 10px;
+}
+
+.address {
+  text-align: center;
+  font-size: 0.16rem;
+  padding-top: 0.29333rem;
+  padding-bottom: 0.37333rem;
+}
+
+.address .address-nav {
+  color: #cccccc;
+  margin-bottom: 8px;
+}
+
+.address .address-nav a {
+  color: #444444;
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.address .address-nav a:hover {
+  color: #00b8a4;
+}
+
+.address .rights {
+  color: #666666;
 }
 
 /*mobile*/
@@ -993,7 +1118,6 @@ i {
     overflow-x: hidden;
     font-size: 0.34667rem;
     min-width: auto;
-    padding-bottom: 1.33333rem;
   }
   .container {
     width: 100%;
@@ -1020,7 +1144,7 @@ i {
     margin-right: 0.09333rem;
   }
   .header-l .logo:after {
-    width: 0.01333rem;
+    width: 1px;
     height: 0.58667rem;
   }
   .header-l .pc-h1 {
@@ -1058,11 +1182,16 @@ i {
     grid-gap: 0.53333rem 1.2rem;
     text-align: center;
   }
+  .m-nav img {
+    margin-bottom: 0.13333rem;
+  }
   .m-nav span {
     font-family: PingFang-SC-Medium;
     font-size: 0.32rem;
-    color: #333333;
     white-space: nowrap;
+  }
+  .title-module {
+    padding-right: 0.93333rem;
   }
   .title-module img {
     display: none;
@@ -1091,6 +1220,7 @@ i {
   .course-live .course-vessel .course-item .course-text .number {
     float: left;
     line-height: 0.64rem;
+    font-size: 0.32rem;
   }
   .course-live .course-vessel .course-item .pc-course-btn {
     display: none;
@@ -1111,6 +1241,7 @@ i {
   /*课程表*/
   .curriculum {
     background: transparent;
+    padding-bottom: 0.4rem;
   }
   .curriculum .curriculum-tab-head {
     margin-right: 0rem;
@@ -1131,6 +1262,7 @@ i {
     margin-right: 0rem;
     margin-bottom: -0.05333rem;
     padding-bottom: 0.13333rem;
+    font-size: 0.34667rem;
   }
   .curriculum .curriculum-tab-head .head-item.active {
     background-color: #ffffff;
@@ -1142,14 +1274,134 @@ i {
     color: #00b8a4;
     border-bottom: 3px solid #00b8a4;
   }
-  .curriculum .curriculum-tab-body .tab-body {
-    margin-right: 0rem;
+  .curriculum .curriculum-tab-body .tab-lcm #cur0 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(5) {
+    display: none;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item {
+  .curriculum .curriculum-tab-body .tab-lcm #cur0 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(6) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur0 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(7) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur0 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(8) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur0 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(5) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur0 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(6) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur0 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(7) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur0 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(8) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur1 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(5) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur1 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(6) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur1 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(7) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur1 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(8) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur1 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(5) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur1 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(6) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur1 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(7) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur1 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(8) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur2 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(5) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur2 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(6) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur2 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(7) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur2 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(8) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur2 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(5) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur2 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(6) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur2 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(7) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur2 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(8) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur3 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(5) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur3 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(6) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur3 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(7) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur3 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(8) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur3 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(5) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur3 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(6) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur3 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(7) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur3 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(8) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur4 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(5) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur4 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(6) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur4 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(7) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur4 .tab-body-area:nth-of-type(1) .tab-body-item:nth-of-type(8) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur4 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(5) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur4 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(6) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur4 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(7) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm #cur4 .tab-body-area:nth-of-type(2) .tab-body-item:nth-of-type(8) {
+    display: none;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body {
+    margin-right: 0rem;
+    position: relative;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item {
     width: 100%;
     background-color: #ffffff;
-    border-radius: 4px;
-    float: left;
+    border-radius: 0px;
     margin-right: 0.26667rem;
     padding: 0.26667rem 0rem;
     -webkit-box-sizing: border-box;
@@ -1157,10 +1409,10 @@ i {
     margin-bottom: 0.33333rem;
     border-bottom: 1px solid #dddddd;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .again {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .again {
     margin-bottom: 0.34667rem;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .again .m-tab-body-title {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .again .m-tab-body-title {
     display: block;
     float: left;
     margin-right: 0.12rem;
@@ -1168,7 +1420,7 @@ i {
     font-size: 0.37333rem;
     line-height: 0.53333rem;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .again .tab-body-btn {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .again .tab-body-btn {
     display: inline-block;
     width: 1.41333rem;
     height: 0.42667rem;
@@ -1178,31 +1430,31 @@ i {
     color: #00b8a4;
     margin-right: 0.12rem;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .again .tab-body-btn:hover {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .again .tab-body-btn:hover {
     background-color: #00b8a4;
     color: #ffffff;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .pc-tab-body-title {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .pc-tab-body-title {
     display: none;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .tab-body-detail {
     border-bottom: none;
     padding-bottom: 0.24rem;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .tab-body-detail .hour {
     width: 100%;
     font-size: 0.32rem;
     line-height: 0.53333rem;
     color: #666666;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .hour span {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .tab-body-detail .hour span {
     width: auto;
     margin-right: 0.34667rem;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .tab-body-detail .pc-price {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .tab-body-detail .pc-price {
     display: none;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .m-price {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .m-price {
     display: block;
     float: left;
     color: #faab00;
@@ -1212,26 +1464,26 @@ i {
     font-weight: bold;
     margin-right: 0.37333rem;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .m-price strong {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .m-price strong {
     font-family: MicrosoftYaHei-Bold;
     font-weight: bold;
     font-size: 0.45333rem;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .avatar {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .avatar {
     padding: 0;
     float: left;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .avatar img {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .avatar img {
     width: 0.66667rem;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .avatar img.arrows {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .avatar img.arrows {
     width: 0.17333rem;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .try_apply {
     margin-right: -0.2rem;
     float: right;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .try_apply a {
     width: 1.73333rem;
     height: 0.56rem;
     line-height: 0.56rem;
@@ -1241,22 +1493,33 @@ i {
     font-size: 0.18667rem;
     color: #faab00;
     margin-right: 0.14667rem;
+    font-size: 0.29333rem;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a.sel {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .try_apply a.sel {
     background: #faab00;
     color: #ffffff;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item .try_apply a:hover {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item .try_apply a:hover {
     background: #faab00;
     color: #ffffff;
   }
-  .curriculum .curriculum-tab-body .tab-body .tab-body-item:hover {
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .tab-body-area .tab-body-item:hover {
     -webkit-box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
             box-shadow: 0 10px 25px 0 rgba(0, 184, 164, 0.15);
+  }
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .hd {
+    display: block;
+    position: absolute;
+    bottom: -0.53333rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
   }
   /*教学优势*/
   .advantage .adv-col .th {
     line-height: 1.2rem;
+    font-size: 0.37333rem;
   }
   .advantage .adv-col .th span {
     display: none;
@@ -1273,24 +1536,20 @@ i {
         -ms-flex-align: center;
             align-items: center;
     padding: 0.22667rem;
+    font-size: 0.29333rem;
   }
-  .advantage .adv-col.new .th img.pc {
+  .advantage .adv-col.new .th img {
     display: none;
-  }
-  .advantage .adv-col.new .th img.m {
-    display: block;
-  }
-  .advantage .adv-col:nth-of-type(2) {
-    width: 46%;
-  }
-  .advantage .adv-col:last-child {
-    width: 29%;
   }
   /*考研名师*/
   .teacher {
     background: transparent;
     margin-top: 0;
     padding-bottom: 0;
+  }
+  .teacher .container {
+    -webkit-box-shadow: 0 0 0 0 white;
+            box-shadow: 0 0 0 0 white;
   }
   .teacher .title-module {
     color: #333333;
@@ -1339,10 +1598,10 @@ i {
     cursor: pointer;
   }
   .teacher .container .lecture .lbt .prev {
-    left: 0;
+    left: 0.08rem;
   }
   .teacher .container .lecture .lbt .next {
-    right: 0;
+    right: 0.08rem;
   }
   .teacher .container .lecture .lbt .cont .tea-detail {
     top: 1.13333rem;
@@ -1355,22 +1614,16 @@ i {
     width: 5.46667rem;
     font-size: 0.29333rem;
     line-height: 0.42667rem;
+    margin-top: 0.13333rem;
   }
-  .teacher .container .lecture .lbt .pointer {
-    position: absolute;
-    bottom: -0.4rem;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
+  .teacher .container .lecture .lbt .hd {
+    bottom: -1.06667rem;
   }
-  .teacher .container .lecture .lbt .pointer span {
-    width: 10px;
-    height: 10px;
+  .teacher .container .lecture .lbt .hd li {
     background: #dddddd;
-    border-radius: 50%;
-    margin-right: 0.26667rem;
-    cursor: pointer;
+  }
+  .teacher .container .lecture .lbt .hd li.on {
+    background: #00b8a4;
   }
   .teacher .container .coach {
     width: 100%;
@@ -1398,12 +1651,10 @@ i {
     width: 2.13333rem;
     height: 1.46667rem;
     display: inline-block;
-    margin-top: 0.38667rem;
     margin-right: 0.26667rem;
   }
   .teacher .container .coach .text {
     display: inline-block;
-    margin-top: 0.4rem;
     text-align: left;
   }
   .teacher .container .coach .text p {
@@ -1420,10 +1671,11 @@ i {
   /*教学服务*/
   .teach-serve {
     background: none;
+    padding-bottom: 0;
   }
   .teach-serve .content {
     width: 100%;
-    margin-top: 1.33333rem;
+    margin-top: 0.66667rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0.26667rem;
@@ -1448,6 +1700,12 @@ i {
     display: inline-block;
     margin-bottom: 0.13333rem;
   }
+  .teach-serve .content .serve-item .text:hover {
+    color: #009e8c;
+  }
+  .teach-serve .content .serve-item .text:hover p {
+    color: #009e8c;
+  }
   .teach-serve .content .serve-item .text .title {
     color: #ffffff;
     font-size: 0.37333rem;
@@ -1464,7 +1722,7 @@ i {
   /*备考资料*/
   .test-data {
     background: none;
-    padding-bottom: 1.02667rem;
+    padding-bottom: 0rem;
   }
   .test-data .title-module {
     color: #333333;
@@ -1489,6 +1747,8 @@ i {
     margin-right: 0rem;
     margin-bottom: -0.04rem;
     padding-bottom: 0.13333rem;
+    color: #999999;
+    font-size: 0.34667rem;
   }
   .test-data .content .m-data-tab-head .head-item.active {
     background-color: #ffffff;
@@ -1503,9 +1763,12 @@ i {
   .test-data .content .data-item {
     width: 100%;
     margin-top: 0.24rem;
-    color: #333333;
     margin-right: 0.24rem;
     display: none;
+    text-align: left;
+  }
+  .test-data .content .data-item.active {
+    display: block;
   }
   .test-data .content .data-item img {
     display: none;
@@ -1517,8 +1780,14 @@ i {
     line-height: 0.77333rem;
     font-size: 0.37333rem;
   }
-  .test-data .content .data-item.active {
-    display: block;
+  /*热门推荐*/
+  .recommend .tab-head .head-item {
+    color: #999999;
+    font-size: 0.34667rem;
+    font-weight: normal;
+  }
+  .recommend .tab-body li a {
+    font-size: 0.37333rem;
   }
   .footer {
     background: #ffffff;
@@ -1538,20 +1807,28 @@ i {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .footer .content .m-data-tab-head .head-item {
+  .footer .content .m-data-tab-head .tab-head {
+    overflow-x: auto;
+    white-space: nowrap;
     width: auto;
-    border: none;
-    border-radius: 0rem;
-    margin-right: 0rem;
-    margin-bottom: -0.04rem;
-    padding-bottom: 0.13333rem;
   }
-  .footer .content .m-data-tab-head .head-item.active {
+  .footer .content .m-data-tab-head .tab-head .head-item {
+    display: inline-block;
+    border-radius: 0rem;
+    margin-right: 0.66667rem;
+    padding-bottom: 0.13333rem;
+    font-size: 0.34667rem;
+    color: #999999;
+  }
+  .footer .content .m-data-tab-head .tab-head .head-item:last-child {
+    margin-right: 0rem;
+  }
+  .footer .content .m-data-tab-head .tab-head .head-item.active {
     background-color: #ffffff;
     color: #00b8a4;
     border-bottom: 0.04rem solid #00b8a4;
   }
-  .footer .content .m-data-tab-head .head-item:hover {
+  .footer .content .m-data-tab-head .tab-head .head-item:hover {
     background-color: #ffffff;
     color: #00b8a4;
     border-bottom: 0.04rem solid #00b8a4;
@@ -1588,5 +1865,28 @@ i {
   }
   .footer .content .data-item.active {
     display: block;
+  }
+  .link {
+    display: none;
+  }
+  .address {
+    background-color: #f5f5f5;
+  }
+  .address .address-nav {
+    display: none;
+  }
+  .address .rights {
+    font-size: 0.29333rem;
+    line-height: 0.53333rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
