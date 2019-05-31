@@ -109,10 +109,15 @@ i {
   text-align: center;
   border-radius: 15px;
   line-height: 28px;
+  color: #00b8a4;
   border: solid 1px #00b8a4;
   margin-left: 10px;
-  font-weight: bold;
   font-size: 14px;
+}
+
+.header-r a.sel {
+  color: #ffffff;
+  background-color: #00b8a4;
 }
 
 .header-r a:hover {
@@ -1081,7 +1086,10 @@ i {
 
 /*mobile*/
 @media screen and (max-width: 750px) {
-  body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  body, div, dl, dt, dd, ul, ol,
+  li, h1, h2, h3, h4, h5, h6, pre, code,
+  form, fieldset, legend, input, textarea,
+  p, blockquote, th, td {
     font-size: 0.34667rem;
   }
   /*多少行显示省略号*/
@@ -1515,6 +1523,13 @@ i {
     right: 0;
     margin: auto;
     text-align: center;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .hd li {
+    border: none;
+    background: #dddddd;
+  }
+  .curriculum .curriculum-tab-body .tab-lcm .tab-body .hd.on {
+    background: #00b8a4;
   }
   /*教学优势*/
   .advantage .adv-col .th {
